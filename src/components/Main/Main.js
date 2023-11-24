@@ -3,7 +3,7 @@ import Header from '../Header/Header';
 import Promo from '../Promo/Promo';
 import AboutProject from '../AboutProject/AboutProject';
 import Techs from '../Techs/Techs';
-import AboutMe from '../AboutMe/AboutMe';
+import AboutOwner from '../AboutOwner/AboutOwner';
 import Footer from '../Footer/Footer';
 
 function Main({isLoggedIn}) {
@@ -13,9 +13,10 @@ function Main({isLoggedIn}) {
                 <Header isLoggedIn={isLoggedIn} />
                 <main>
                     <Promo />
+                    <AboutOwner />
                     <AboutProject />
-                    <Techs />
-                    <AboutMe />
+                    {/* <Techs /> */}
+                    
                 </main>
                 <Footer />
             </div>

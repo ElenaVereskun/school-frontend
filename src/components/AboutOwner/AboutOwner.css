@@ -1,0 +1,145 @@
+.about-owner {
+    background-color: whitesmoke;
+}
+
+.about-owner__container {
+    font-style: normal;
+    color: black;
+    font-family: Inter,Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.about-owner__student {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 70px 0 70px;
+    padding-top: 66px;
+}
+
+.about-owner__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-owner__title {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: -2px;
+    padding-bottom: 18px;
+    margin: 0;
+}
+
+.about-owner__subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 26px;
+    margin: 0;
+}
+
+.about-owner__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0;
+    max-width: 600px;
+}
+
+.about-owner__photo {
+    height: 327px;
+    width: 270px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 1279px) {
+    .about-owner {
+        padding-top: 0px;
+    }
+
+    .about-owner__container {
+        padding-top: 0;
+    }
+
+    .about-owner__student {
+        margin: 0 50px 0 50px;
+        padding-top: 66px;
+    }
+
+    .about-owner__title {
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -1.6px;
+        padding-bottom: 16px;
+    }
+
+    .about-owner__subtitle {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 20px;
+    }
+
+    .about-owner__photo {
+        height: 307px;
+        width: 255px;
+    }
+
+    .about-owner__text {
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 364px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .about-owner {
+        padding-top: 0px;
+    }
+
+    .about-owner__container {
+        padding-top: 10px;
+    }
+
+    .about-owner__student {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0 14px 0 14px;
+        padding-top: 60px;
+    }
+
+    .about-owner__photo {
+        height: 352px;
+        width: 292px;
+    }
+
+    .about-owner__title {
+        padding-top: 40px;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -1.2px;
+        padding-bottom: 20px;
+    }
+
+    .about-owner__subtitle {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .about-owner__text {
+        font-size: 11px;
+        font-style: normal;
+        line-height: 16px;
+    }
+
+
+}
