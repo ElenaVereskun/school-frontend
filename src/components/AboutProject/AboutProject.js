@@ -9,7 +9,7 @@ function AboutProject() {
                 <AboutProjectTitle titleText={'Что будет на обучении:'} />
                 <ul class="tab">
                     <li class="tab__items">
-                        <img class="tab__photo" scr={photoFirst} alt='фото1' />
+                        <img class="tab__photo" scr={photoFirst} alt='фотоПроект' />
                         <p class="tab__description">
                             Легко освоите все АЗЫ ремесла от первых ручных стежков до современных
                             технологий по обработке разных изделий и узлов.

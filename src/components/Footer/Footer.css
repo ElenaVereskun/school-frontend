@@ -1,5 +1,5 @@
 .footer {
-    background-color: #202020;
+    background-color: whitesmoke;
     font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -35,14 +35,12 @@
 }
 
 .footer__items {
-    column-gap: 20px;
+    column-gap: 50px;
     display: flex;
 }
 
 .footer__item {
     margin: 0;
-    color: #FFF;
-    text-decoration: none;
 }
 
 .footer__item:hover {

@@ -8,7 +8,7 @@ function Header({ isLoggedIn }) {
         <header className="header">
             <div className='header__container'>
                 <Link to="/" className='header__logo'>
-                    <img src={logo} alt='логотип' />
+                    {/* <img src={logo} alt='логотип' /> */}
                 </Link>
                 <Navigation isLoggedIn={isLoggedIn} />
             </div>
