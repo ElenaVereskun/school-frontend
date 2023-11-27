@@ -1,5 +1,7 @@
 .main {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-image: url(../../images/logoGirl.jpeg);
+    background-repeat: no-repeat;
 }
 .main__container{    
     margin: 0 auto;
