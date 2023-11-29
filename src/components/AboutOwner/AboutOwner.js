@@ -7,7 +7,8 @@ function AboutOwner() {
         <section className='about-owner'>
             <div className='about-owner__container'>
                 <AboutProjectTitle titleText={'Об авторе'} />
-                <div className='about-owner__student'>
+                <div className='about-owner__description'>
+                    <img className='about-owner__photo' src={photo} alt='фото' />
                     <div className='about-owner__info'>
                         <h2 className='about-owner__title'>Здравствуйте!</h2>
                         <p className='about-owner__subtitle'>Меня зовут Масохина Наталия</p>
@@ -22,7 +23,7 @@ function AboutOwner() {
                             МГУ ДТ (Московский Государственный Университет Дизайна и Технологии)- маркетинг, менеджмент и управление предприятиями.
                             Портной верхней женской одежды, художник по костюму, инженер-конструктор швейных изделий и изделий из кожи </p>
                     </div>
-                    <img className='about-owner__photo' src={photo} alt='фото' />
+
                 </div>
             </div>
         </section>

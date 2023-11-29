@@ -1,5 +1,5 @@
 .footer {
-    background-color: whitesmoke;
+    background-color: rgba(238, 223, 204, 0.1);
     font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -22,7 +22,6 @@
 }
 
 .footer__elements {
-    color: #FFF;
     display: flex;
     margin: 0;
     justify-content: space-between;

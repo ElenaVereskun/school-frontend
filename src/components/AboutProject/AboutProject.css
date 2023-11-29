@@ -25,10 +25,11 @@
 
 .tab__photo {
     padding-left: 0px;
-    padding-bottom: 26px;
+    
     margin: 0;
     width: 300px;
     height: 200px;
+    border-radius: 10px;
 }
 
 .tab__description {
@@ -36,7 +37,7 @@
     font-weight: 400;
     line-height: 20px;
     margin: 0;
-    max-width: 550px;
+    width: 300px;
 }
 
 @media screen and (max-width: 1279px) {

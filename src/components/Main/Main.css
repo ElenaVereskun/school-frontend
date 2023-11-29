@@ -1,7 +1,9 @@
 .main {
     /* background-color: whitesmoke; */
-    background-image: url(../../images/logoGirl.jpeg);
+    background-image: url(../../images/logoGirlBorderless.jpg);
     background-repeat: no-repeat;
+    /* background-color: rgba(238, 223, 204, 0.7) */
+    background-size: cover;
 }
 .main__container{    
     margin: 0 auto;

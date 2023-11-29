@@ -12,7 +12,7 @@
     margin: 0 auto;
 }
 
-.about-owner__student {
+.about-owner__description {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -68,7 +68,7 @@
         padding-top: 0;
     }
 
-    .about-owner__student {
+    .about-owner__description {
         margin: 0 50px 0 50px;
         padding-top: 66px;
     }
@@ -108,7 +108,7 @@
         padding-top: 10px;
     }
 
-    .about-owner__student {
+    .about-owner__description {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;

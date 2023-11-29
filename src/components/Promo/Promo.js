@@ -15,7 +15,7 @@ function Promo() {
                         Для обучения он-лайн нажмите на кнопку</p>
                     <button className='promo-button__online'>онлайн обучение</button>
                 </div>
-                <img src={promoLogo} className='promo__logo' alt='промоЛого' />
+                {/* <img src={promoLogo} className='promo__logo' alt='промоЛого' /> */}
             </div>
         </section>
     )
