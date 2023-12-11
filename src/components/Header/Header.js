@@ -1,15 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import logo from '../../images/logo.svg';
+import logo from '../../images/sewing_machine.svg';
 import Navigation from '../Navigation/Navigation';
 
 function Header({ isLoggedIn }) {
     return (
         <header className="header">
             <div className='header__container'>
-                <Link to="/" className='header__logo'>
-                    {/* <img src={logo} alt='логотип' /> */}
-                </Link>
+                    <img src={logo} className='header__logo' alt='логотип' />
                 <Navigation isLoggedIn={isLoggedIn} />
             </div>
         </header>

@@ -1,12 +1,8 @@
 .main {
-    /* background-color: whitesmoke; */
-    background-image: url(../../images/logoGirlBorderless.jpg);
-    background-repeat: no-repeat;
-    /* background-color: rgba(238, 223, 204, 0.7) */
-    background-size: cover;
+    background-color: white;
 }
 .main__container{    
-    margin: 0 auto;
+    margin: 0 120px;
     font-family: Inter,Arial,sans-serif;
     font-style: normal;
     display: flex;

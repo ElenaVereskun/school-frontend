@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import account from '../../images/account.svg';
 
 function PopupMenu({ isMenuOpen, onClickCloseButton }) {
 
@@ -13,7 +12,6 @@ function PopupMenu({ isMenuOpen, onClickCloseButton }) {
 
             </div>
             <Link to="/profile" className='popup-menu__account'>Аккаунт
-                <img className='popup-menu__account-img' src={account} alt='аккаунт' />
             </Link>
             <button className='popup-menu__close-button' onClick={onClickCloseButton}></button>
         </div>

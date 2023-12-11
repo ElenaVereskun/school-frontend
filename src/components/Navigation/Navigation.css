@@ -6,45 +6,31 @@
     justify-content: space-between;
     align-items: center;
     column-gap: 30px;
-    padding-top: 21px;
-    margin-right: 70px;
+    padding-top: 40px;
 }
 
-.navigation__items {
+/* .navigation__items {
     display: none;
-}
+} */
 
 .navigation__items_active {
-    display: flex;
-    color: black;
-    align-items: center;
-}
-
-.navigation__enter {
-    display: none;
-}
-
-.navigation__enter_active {
-    display: flex;
-    column-gap: 30px;
-    align-items: center;
-}
-
-.navigation__register {
-    color: black;
-    font-size: 12px;
+    font-size: 16px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 16px;
-    margin: 0;
-    text-decoration: none;
+    line-height: normal;
+    display: flex;
+    color: black;
+    column-gap: 40px;
 }
 
-.navigation__register:hover {
-    cursor: pointer;
+.navigation__call {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
 }
-
-.navigation__register:active {
-    opacity: 0.7;
+.navigation__mobile-img{
+    width: 40px;
+    height: 40px;
 }
 
 .navigation__button {
@@ -67,47 +53,47 @@
     opacity: 0.8;
 }
 
-.navigation__movies {
+.navigation__contacts {
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
     margin: 0;
     padding-right: 20px;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
-.navigation__movies:hover {
+.navigation__contacts:hover {
     cursor: pointer;
 }
 
-.navigation__movies:active {
+.navigation__contacts:active {
     opacity: 0.7;
 }
 
-.navigation__save-movies {
+.navigation__courses {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
     margin: 0;
     padding-right: 50px;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
-.navigation__save-movies:hover {
+.navigation__courses:hover {
     cursor: pointer;
 }
 
-.navigation__save-movies:active {
+.navigation__courses:active {
     opacity: 0.7;
 }
 
 .navigation__account {
     display: flex;
     align-items: center;
-    color: white;
+    color: black;
     text-decoration: none;
     column-gap: 13px;
     font-size: 14px;
@@ -147,9 +133,10 @@
         margin-right: 30px;
     }
 
-    .navigation__items_active {
+    /*  .navigation__items_active {
         display: none;
-    }
+        нужно для бургер меню
+    } */
 
     .navigation__menu_active {
         display: flex;
