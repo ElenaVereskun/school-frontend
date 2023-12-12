@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
 import Promo from '../Promo/Promo';
-import AboutProject from '../AboutProject/AboutProject';
+import AboutSchool from '../AboutSchool/AboutSchool';
 import Techs from '../Techs/Techs';
 import AboutOwner from '../AboutOwner/AboutOwner';
 import Footer from '../Footer/Footer';
@@ -13,8 +13,9 @@ function Main({isLoggedIn}) {
                 <Header isLoggedIn={isLoggedIn} />
                 <main>
                     <Promo />
+                    
+                    <AboutSchool />
                     <AboutOwner />
-                    <AboutProject />
                     {/* <Techs /> */}
                     
                 </main>

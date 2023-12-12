@@ -12,23 +12,24 @@
 }
 
 .tab {
-    display: grid;
-    grid-template-columns: 50% 50%;
     list-style-type: none;
     column-gap: 26px;
     row-gap: 40px;
     padding-left: 0;
-    padding-top: 70px;
-    margin: 0 70px 0 70px;
+    padding-top: 130px;
     align-items: center;
+}
+.tab__items {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 83px;
 }
 
 .tab__photo {
-    padding-left: 0px;
-    
+    padding-left: 0px;    
     margin: 0;
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 270px;
     border-radius: 10px;
 }
 
@@ -37,7 +38,7 @@
     font-weight: 400;
     line-height: 20px;
     margin: 0;
-    width: 300px;
+    width: 460px;
 }
 
 @media screen and (max-width: 1279px) {
