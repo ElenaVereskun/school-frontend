@@ -1,12 +1,10 @@
 import React from 'react';
-import AboutProjectTitle from '../AboutProjectTitle/AboutProjectTitle';
 import photo from '../../images/Наташа.jpeg';
 
 function AboutOwner() {
     return (
         <section className='about-owner'>
             <div className='about-owner__container'>
-                <AboutProjectTitle titleText={'Об авторе'} />
                 <div className='about-owner__description'>
                     <img className='about-owner__photo' src={photo} alt='фото' />
                     <div className='about-owner__info'>

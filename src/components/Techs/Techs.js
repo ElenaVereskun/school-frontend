@@ -1,11 +1,9 @@
 import React from 'react';
-import AboutProjectTitle from '../AboutProjectTitle/AboutProjectTitle';
 
 function Techs() {
     return (
         <section className='techs'>
             <div className='techs__container'>
-                <AboutProjectTitle titleText={'Технологии'} />
                 <div className='techs__content'>
                     <h2 className='techs__title'>7 технологий</h2>
                     <p className='techs__subtitle'>На курсе веб-разработки мы освоили технологии,

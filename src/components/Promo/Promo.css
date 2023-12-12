@@ -3,10 +3,7 @@
     height: 574px;
 }
 
-.promo__logo {
-    width: 510px;
-    height: 510px;
-}
+
 
 .promo__container {
     display: flex;
@@ -31,9 +28,8 @@
     line-height: 58px;
     max-height: 174px;
     max-width: 640px;
-    padding-bottom: 36px;
     color: black;
-    margin: 0;
+    margin-top: -25px;
 }
 
 .promo__subtitle {}
@@ -48,15 +44,57 @@
     margin-top: 14px;
     margin-bottom: 14px;
 }
+.promo__background-machine{
+    background-image: url(../../images/sewing-machine-fon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 70% 55%;
+    transform: rotate(-30deg);
+    width: 115px;
+    opacity: 0.5;
 
-.promo__background-item {
+}
+.promo__background-spool {
     background-image: url(../../images/spool-of-thread.svg);
-    background-size: 50px 50px;
+    background-size: 98px 154px;
+    background-repeat: no-repeat;
+    background-position: 25% 78%;
+    transform: rotate(30deg);
+    padding-top: 120px;
+    opacity: 0.3;
+}
+.promo__background-button-sewing{
+    background-image: url(../../images/button-sewing.svg);
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-position: 79% -108%;
+    transform: rotate(-20deg);
+    padding-top: 80px;
+    opacity: 0.3;
+    margin-top: -53px;
+}
+.promo__background-needle {
+    background-image: url(../../images/sewing-needle.svg);
+    background-size: 80px 80px;
     background-repeat: no-repeat;
     background-position: 20% 75%;
-    /* transform: rotate(30deg); */
+    transform: rotate(30deg);
+    padding-top: 81px;
+    opacity: 0.5;
 }
 
+.promo__logo {
+    width: 510px;
+    height: 510px;
+}
+
+.promo__background-logo{
+    width: 490px;
+    height: 510px;
+    border-radius: 20px;
+    border-style: dashed;
+    border-color: rgba(255, 0, 0, 0.16);
+}
 @media screen and (max-width: 1279px) {
     .promo {
         height: 850px;

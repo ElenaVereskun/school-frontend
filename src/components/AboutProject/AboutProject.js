@@ -1,5 +1,4 @@
 import React from 'react';
-import AboutProjectTitle from '../AboutProjectTitle/AboutProjectTitle';
 import photoFirst from '../../images/photo1.jpeg';
 import photoSecond from '../../images/photo2.jpeg';
 import photoThird from '../../images/photo3.jpeg';
@@ -11,7 +10,6 @@ function AboutProject() {
     return (
         <section className='about-project'>
             <div className='about-project__container'>
-                <AboutProjectTitle titleText={'Что будет на обучении:'} />
                 <ul className="tab">
                     <li className="tab__items">
                         <img className='tab__photo' src={photoFirst} alt='фото1' />
