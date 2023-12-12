@@ -4,14 +4,13 @@
 }
 
 .promo__logo {
-    margin-right: 70px;
     width: 510px;
     height: 510px;
 }
 
 .promo__container {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
     padding-top: 75px;
     max-width: 1280px;
@@ -22,6 +21,7 @@
     text-align: left;
     margin-left: 70px;
     max-width: 400px;
+    margin-left: 0px;
 }
 
 .promo__title {
@@ -35,10 +35,10 @@
     color: black;
     margin: 0;
 }
-.promo__subtitle{
 
-}
-.promo-button__online{
+.promo__subtitle {}
+
+.promo-button__online {
     width: 200px;
     height: 29px;
     color: #FFFFFF;
@@ -47,6 +47,14 @@
     border: none;
     margin-top: 14px;
     margin-bottom: 14px;
+}
+
+.promo__background-item {
+    background-image: url(../../images/spool-of-thread.svg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: 20% 75%;
+    /* transform: rotate(30deg); */
 }
 
 @media screen and (max-width: 1279px) {
