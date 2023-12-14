@@ -1,9 +1,9 @@
-.about-project {
+.about-school {
     /* background-color: whitesmoke; */
 }
 
-.about-project__container {
-    font-family: Inter,Arial,sans-serif;
+.about-school__container {
+    font-family: Inter, Arial, sans-serif;
     font-style: normal;
     color: black;
     padding-top: 10px;
@@ -19,6 +19,7 @@
     padding-top: 130px;
     align-items: center;
 }
+
 .tab__items {
     display: flex;
     justify-content: space-between;
@@ -26,7 +27,7 @@
 }
 
 .tab__photo {
-    padding-left: 0px;    
+    padding-left: 0px;
     margin: 0;
     width: 400px;
     height: 270px;
@@ -34,11 +35,35 @@
 }
 
 .tab__description {
+display: flex;
+    flex-direction: column;
+    position: relative;
     font-size: 18px;
     font-weight: 400;
     line-height: 20px;
     margin: 0;
     width: 460px;
+    z-index: 3;
+}
+
+.tab__background {
+    position: relative;
+    background-color: #FFF7BE;
+    border-radius: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    height: 110px;
+    width: 480px;
+    z-index: 2;
+}
+
+.tab__circle {
+    background-image: url(../../images/circle.svg);
+    /* position: relative; */
+    margin-top: -50px;
+    margin-left: 280px;
+    z-index: 1;
+    background-size: cover;
 }
 
 @media screen and (max-width: 1279px) {
