@@ -5,7 +5,6 @@ import photoThird from '../../images/photo3.jpeg';
 import photoFourth from '../../images/photo4.jpeg';
 import photoFifth from '../../images/photo5.jpeg';
 import photoSixth from '../../images/photo6.jpeg';
-import circle from '../../images/circle.svg';
 
 function AboutSchool() {
     return (
@@ -13,9 +12,11 @@ function AboutSchool() {
             <div className='about-school__container'>
                 <ul className="tab">
                     <li className="tab__items">
-                        <img className='tab__photo' src={photoFirst} alt='фото1' />
+                        <div className='tab__background-photo'>
+                            <img className='tab__photo' src={photoFirst} alt='фото1' />
+                        </div>
                         <div className='tab__circle'>
-                            <div className='tab__background'>
+                            <div className='tab__background-text'>
                                 <p className="tab__description">
                                     Легко освоите все АЗЫ ремесла от первых ручных стежков до современных
                                     технологий по обработке разных изделий и узлов.
@@ -25,19 +26,23 @@ function AboutSchool() {
                     </li>
                     <li className="tab__items">
                         <div className='tab__circle' style={{ backgroundPosition: '40px -20px' }}>
-                            <div className='tab__background'>
+                            <div className='tab__background-text'>
                                 <p className="tab__description">
                                     Даже самые маленькие ученицы творят у нас самозабвенно и с пользой!
                                     Осваивают сложные техники, конструируют, учатся работать с
                                     разнообразнейшими материалами</p>
                             </div>
                         </div>
-                        <img className='tab__photo' src={photoSecond} alt='фото2' />
+                        <div className='tab__background-photo'>
+                            <img className='tab__photo' src={photoSecond} alt='фото2' />
+                        </div>
                     </li>
                     <li className="tab__items">
-                        <img className='tab__photo' src={photoThird} alt='фото3' />
+                        <div className='tab__background-photo'>
+                            <img className='tab__photo' src={photoThird} alt='фото3' />
+                        </div>
                         <div className='tab__circle' style={{ backgroundPosition: '0px 0px' }}>
-                            <div className='tab__background' style={{ marginLeft: '40px', marginTop: '10px' }}>
+                            <div className='tab__background-text' style={{ marginLeft: '40px', marginTop: '10px' }}>
                                 <p className="tab__description">
                                     Студия оснащена, самыми простыми, бытовыми машинами и утюгами.
                                     И взрослые и детские программы направлены на то что бы - вы могли
@@ -51,7 +56,7 @@ function AboutSchool() {
                             marginTop: '0px',
                             paddingTop: '50px'
                         }}>
-                            <div className='tab__background' style={{ height: '200px' }}>
+                            <div className='tab__background-text' style={{ height: '200px' }}>
                                 <p className="tab__description">
                                     Детские и подростковые группы осваивают программы по технологии шитья,
                                     конструированию и моделированию от простейших шагов к сложным, каждый
@@ -62,16 +67,21 @@ function AboutSchool() {
                                 </p>
                             </div>
                         </div>
-                        <img className='tab__photo' src={photoFourth} alt='фото4' />
+                        <div className='tab__background-photo'>
+                            <img className='tab__photo' src={photoFourth} alt='фото4' />
+                        </div>
+
                     </li>
                     <li className="tab__items">
-                        <img className='tab__photo' src={photoFifth} alt='фото5' />
+                        <div className='tab__background-photo'>
+                            <img className='tab__photo' src={photoFifth} alt='фото5' />
+                        </div>
                         <div className='tab__circle' style={{
                             backgroundPosition: '248px 0px',
                             marginTop: '0px',
                             paddingTop: '50px'
                         }}>
-                            <div className='tab__background' style={{ height: '145px' }}>
+                            <div className='tab__background-text' style={{ height: '145px' }}>
                                 <p className="tab__description">
                                     Раскроете свой внутренний творческий потенциал! Это становиться буквально
                                     жизненно необходимо в подростковый возраст и в моменты "внутреннего
@@ -82,7 +92,7 @@ function AboutSchool() {
                     </li>
                     <li className="tab__items">
                         <div className='tab__circle'>
-                            <div className='tab__background' style={{ height: '140px' }}>
+                            <div className='tab__background-text' style={{ height: '140px' }}>
                                 <p className="tab__description">
                                     Перестанете бояться профессиональных провалов - курсы для профи разделены
                                     на "болевые точки" которые проходит любой профессионал. Курс разделён на
@@ -90,7 +100,9 @@ function AboutSchool() {
                                     обсуждение результатов.</p>
                             </div>
                         </div>
-                        <img className='tab__photo' src={photoSixth} alt='фото6' />
+                        <div className='tab__background-photo'>
+                            <img className='tab__photo' src={photoSixth} alt='фото6' />
+                        </div>
                     </li>
                 </ul>
             </div>

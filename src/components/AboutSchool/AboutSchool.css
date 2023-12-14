@@ -27,11 +27,20 @@
 }
 
 .tab__photo {
-    padding-left: 0px;
-    margin: 0;
     width: 400px;
     height: 270px;
-    border-radius: 10px;
+    border-radius: 30px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.tab__background-photo {
+    border-radius: 30px;
+    border: 4px dashed #018FA3;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 380px;
+    height: 250px;
 }
 
 .tab__description {
@@ -46,7 +55,7 @@
     z-index: 3;
 }
 
-.tab__background {
+.tab__background-text {
     display: flex;
     flex-direction: column;
     position: relative;
