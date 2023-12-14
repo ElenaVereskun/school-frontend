@@ -35,9 +35,9 @@
 }
 
 .tab__description {
-display: flex;
+    /* display: flex;
     flex-direction: column;
-    position: relative;
+    position: relative; */
     font-size: 18px;
     font-weight: 400;
     line-height: 20px;
@@ -47,6 +47,8 @@ display: flex;
 }
 
 .tab__background {
+    display: flex;
+    flex-direction: column;
     position: relative;
     background-color: #FFF7BE;
     border-radius: 30px;
@@ -59,11 +61,14 @@ display: flex;
 
 .tab__circle {
     background-image: url(../../images/circle.svg);
-    /* position: relative; */
-    margin-top: -50px;
-    margin-left: 280px;
+    margin-top: 40px;
+    background-repeat: no-repeat;
     z-index: 1;
     background-size: cover;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-position-x: 320px;
+    padding-right: 32px;
 }
 
 @media screen and (max-width: 1279px) {
