@@ -14,17 +14,29 @@ function Navigation({ isLoggedIn }) {
     function handleMenuOpen() {
         setIsMenuOpen(true);
     }
+
+    const handleScrollCourses = (e) => {
+        e.preventDefault();
+        let courses = document.getElementById('courses');
+        courses && courses.scrollIntoView({ behavior: "smooth"});
+    };
+
+    const handleScrollCertificates = (e) => {
+        e.preventDefault();
+        let certificates = document.getElementById('certificates');
+        certificates && certificates.scrollIntoView({ behavior: "smooth"});
+    };
     return (
         <>
             <PopupMenu isMenuOpen={isMenuOpen} onClickCloseButton={handleCloseButton} />
             <div className='navigation'>
                 <div className='navigation__container'>
                     <div className='navigation__items_active'>
-                        <p className='navigation__item'>О нас</p>
-                        <p className='navigation__item'>Каталог</p>
-                        <p className='navigation__item'>Сертификаты</p>
-                        <p className='navigation__item'>Отзывы</p>
-                        <p className='navigation__item'>Контакты</p>
+                        <button className='navigation__item'>О нас</button>
+                        <button className='navigation__item' onClick={handleScrollCourses}>Курсы</button>
+                        <button className='navigation__item' onClick={handleScrollCertificates}>Сертификаты</button>
+                        <button className='navigation__item' onClick={handleScrollCourses}>Отзывы</button>
+                        <button className='navigation__item' onClick={handleScrollCourses}>Контакты</button>
                     </div>
                     <div className='navigation__call'>
                         <img className='navigation__mobile-img' src={mobile} alt='мобильный' />

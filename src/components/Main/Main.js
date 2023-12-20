@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from '../Header/Header';
 import Promo from '../Promo/Promo';
-import AboutSchool from '../AboutSchool/AboutSchool';
-import Techs from '../Techs/Techs';
+import Courses from '../Courses/Courses';
+import Certificates from '../Certificates/Certificates';
 import AboutOwner from '../AboutOwner/AboutOwner';
 import Footer from '../Footer/Footer';
 
@@ -12,11 +12,10 @@ function Main({isLoggedIn}) {
             <div className='main__container'>
                 <Header isLoggedIn={isLoggedIn} />
                 <main>
-                    <Promo />
-                    
-                    <AboutSchool />
+                    <Promo />                    
+                    <Courses />
                     <AboutOwner />
-                    {/* <Techs /> */}
+                    <Certificates/>
                     
                 </main>
                 <Footer />
