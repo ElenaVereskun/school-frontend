@@ -15,6 +15,12 @@ function Navigation({ isLoggedIn }) {
         setIsMenuOpen(true);
     }
 
+    const handleScrollAboutOwner = (e) => {
+        e.preventDefault();
+        let owner = document.getElementById('owner');
+        owner && owner.scrollIntoView({ behavior: "smooth"});
+    };
+
     const handleScrollCourses = (e) => {
         e.preventDefault();
         let courses = document.getElementById('courses');
@@ -32,7 +38,7 @@ function Navigation({ isLoggedIn }) {
             <div className='navigation'>
                 <div className='navigation__container'>
                     <div className='navigation__items_active'>
-                        <button className='navigation__item'>О нас</button>
+                        <button className='navigation__item' onClick={handleScrollAboutOwner}>О нас</button>
                         <button className='navigation__item' onClick={handleScrollCourses}>Курсы</button>
                         <button className='navigation__item' onClick={handleScrollCertificates}>Сертификаты</button>
                         <button className='navigation__item' onClick={handleScrollCourses}>Отзывы</button>

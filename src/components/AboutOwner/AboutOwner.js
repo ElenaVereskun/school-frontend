@@ -3,7 +3,7 @@ import photo from '../../images/Наташа.jpeg';
 
 function AboutOwner() {
     return (
-        <section className='about-owner'>
+        <section className='about-owner' id='owner'>
             <div className='about-owner__container'>
                 <div className='about-owner__description'>
                     <img className='about-owner__photo' src={photo} alt='фото' />

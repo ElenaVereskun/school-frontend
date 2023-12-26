@@ -15,8 +15,7 @@ function Main({isLoggedIn}) {
                     <Promo />                    
                     <Courses />
                     <AboutOwner />
-                    <Certificates/>
-                    
+                    <Certificates/>                    
                 </main>
                 <Footer />
             </div>
